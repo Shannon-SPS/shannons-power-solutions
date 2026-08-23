@@ -10,17 +10,17 @@
   <body class="tesla-page">
     
     <header class="site-header tesla-header">
-      <a class="brand" href="index.html" aria-label="Shannon's Power Solutions home">
+      <a aria-label='Shannon\'s Power Solutions home' class='brand' href='/'>
         <span class="brand-mark">SP</span>
         <span><strong>Shannon's Power Solutions</strong><small>Tesla Certified Installer</small></span>
       </a>
       <nav class="nav" aria-label="Primary navigation">
-        <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
-        <a aria-current="page" href="tesla-energy.html">Tesla Energy</a>
-        <a href="service-areas.html">Service Areas</a>
-        <a href="reviews.html">Reviews</a>
-        <a href="contact.html">Contact</a>
+        <a href='/'>Home</a>
+        <a href='/services'>Services</a>
+        <a aria-current='page' href='/tesla-energy'>Tesla Energy</a>
+        <a href='/service-areas'>Service Areas</a>
+        <a href='/reviews'>Reviews</a>
+        <a href='/contact'>Contact</a>
       </nav>
       <a class="header-call" href="tel:+12083693336">Call Shannon</a>
     </header>
@@ -31,7 +31,7 @@
           <p class="eyebrow">Tesla Certified Installer</p>
           <h1>Tesla Powerwall backup and EV charging for Treasure Valley homes.</h1>
           <p class="hero-text">Shannon's Power Solutions helps homeowners plan, install, and support Tesla Powerwall home batteries, EV charging stations, solar-ready electrical work, and backup power systems.</p>
-          <div class="hero-actions"><a class="button primary" href="tel:+12083693336">Call Shannon</a><a class="button secondary" href="contact.html">Request Tesla Consultation</a></div>
+          <div class="hero-actions"><a class="button primary" href="tel:+12083693336">Call Shannon</a><a class='button secondary' href='/contact'>Request Tesla Consultation</a></div>
         </div>
         <div class="tesla-system-card" aria-label="Tesla energy services summary">
           <span class="thin-rule"></span>
@@ -102,17 +102,12 @@
           <p>Call Shannon directly, or send a request with your city, whether you have solar already, and what you want backed up or charged.</p>
           <div class="contact-methods"><a href="tel:+12083693336">208 369 3336</a><a href="mailto:Shannon@shannonspowersolutions.com">Shannon@shannonspowersolutions.com</a></div>
         </div>
-        <form class="contact-form" name="tesla-energy-request" method="POST" data-netlify="true" netlify-honeypot="company">
-          <input type="hidden" name="form-name" value="tesla-energy-request">
-          <p class="hidden-field"><label>Company <input name="company"></label></p>
-          <label>Name <input type="text" name="name" autocomplete="name" required></label>
-          <label>Phone <input type="tel" name="phone" autocomplete="tel" required></label>
-          <label>Email <input type="email" name="email" autocomplete="email"></label>
-          <label>City / Area <input type="text" name="city" autocomplete="address-level2"></label>
-          <label>Interested In <select name="interest"><option>Powerwall home battery</option><option>EV charging station</option><option>Powerwall and EV charging</option><option>Existing Tesla Energy service</option><option>Not sure yet</option></select></label>
-          <label>Tell us about your home or system <textarea name="message" rows="5" required></textarea></label>
-          <button class="button primary" type="submit">Request Tesla Consultation</button>
-        </form>
+        <div class="contact-form">
+          <p class="eyebrow">Secure online intake</p>
+          <h2>Start your Tesla Energy request</h2>
+          <p>Your request will be added directly to Shannon's CRM. You can include the property address, urgency, and photos.</p>
+          <a class="button primary" href="/crm/request-service">Request Tesla Consultation</a>
+        </div>
       </section>
     </main>
 

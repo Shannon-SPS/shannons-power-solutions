@@ -1,0 +1,15 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/crm",
+      "destination": "https://crm-shannon-sps-projects.vercel.app/crm"
+    },
+    {
+      "source": "/crm/:path*",
+      "destination": "https://crm-shannon-sps-projects.vercel.app/crm/:path*"
+    }
+  ]
+}
