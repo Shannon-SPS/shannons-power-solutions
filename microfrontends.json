@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/microfrontends.json",
+  "applications": {
+    "shannons-website": {
+      "development": {
+        "fallback": "www.shannonspowersolutions.com"
+      }
+    },
+    "crm": {
+      "routing": [
+        {
+          "paths": ["/crm/:path*"]
+        }
+      ]
+    }
+  }
+}
