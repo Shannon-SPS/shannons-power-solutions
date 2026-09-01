@@ -2,6 +2,79 @@
   background: #f4f1eb;
 }
 
+/* Keep this page visibly owned by Shannon's Power Solutions. Tesla-provided
+   wordmarks and installer-only creative assets are intentionally not used. */
+.tesla-page {
+  background: #f4f1eb;
+}
+
+.tesla-page .tesla-header {
+  background: rgba(255, 255, 255, .97);
+  border-bottom-color: rgba(9, 28, 59, .14);
+}
+
+.tesla-page .tesla-hero {
+  background: #091c3b;
+}
+
+.tesla-page .tesla-hero::after {
+  background: linear-gradient(135deg, rgba(60, 215, 239, .16), rgba(255, 230, 0, .08));
+}
+
+.tesla-page .eyebrow {
+  color: #087a91;
+}
+
+.tesla-page .tesla-hero .eyebrow,
+.tesla-page .tesla-contact .eyebrow {
+  color: #43dbef;
+}
+
+.tesla-page .thin-rule,
+.tesla-page .button.primary {
+  background: #ffe600;
+  color: #07172f;
+}
+
+.tesla-page .tesla-feature-band,
+.tesla-page .tesla-contact {
+  background: #07172f;
+}
+
+.tesla-page .tesla-feature-band article {
+  background: #0c2347;
+}
+
+.tesla-page .tesla-feature-band span {
+  color: #ffe600;
+}
+
+.tesla-page .button.primary:hover {
+  background: #f3d900;
+}
+
+.brand-disclosure {
+  align-items: start;
+  background: #fff;
+  border: 1px solid rgba(9, 28, 59, .16);
+  border-left: 5px solid #3cd7ef;
+  display: grid;
+  gap: .35rem;
+  margin: 1.25rem auto 0;
+  max-width: 1180px;
+  padding: 1rem 1.25rem;
+}
+
+.brand-disclosure strong {
+  color: #091c3b;
+}
+
+.brand-disclosure p {
+  color: #4c5a6b;
+  line-height: 1.55;
+  margin: 0;
+}
+
 .tesla-expectation-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -12,7 +85,7 @@
 .tesla-expectation-grid article {
   background: #fff;
   border: 1px solid var(--line);
-  border-top: 4px solid #d01818;
+  border-top: 4px solid #3cd7ef;
   border-radius: 12px;
   box-shadow: 0 12px 30px rgba(16, 26, 38, .06);
   padding: 1.4rem;
