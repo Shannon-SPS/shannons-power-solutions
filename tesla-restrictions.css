@@ -1,0 +1,36 @@
+.tesla-expectations {
+  background: #f4f1eb;
+}
+
+.tesla-expectation-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.tesla-expectation-grid article {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-top: 4px solid #d01818;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(16, 26, 38, .06);
+  padding: 1.4rem;
+}
+
+.tesla-expectation-grid h3 {
+  font-size: 1.05rem;
+  margin: 0 0 .65rem;
+}
+
+.tesla-expectation-grid p {
+  color: var(--muted);
+  line-height: 1.65;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .tesla-expectation-grid {
+    grid-template-columns: 1fr;
+  }
+}
